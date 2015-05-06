@@ -1,6 +1,6 @@
 package edu.saintjoe.cs.brianc.attr;
 
-	// Brian Capouch commenting a subclass of Attr, called ColorAttr
+	// Overridding or overloading comments Bruce Anderson May 6 2015 CMP 112
 	public class ColorAttr extends Attr {
 		
 		
@@ -53,6 +53,8 @@ package edu.saintjoe.cs.brianc.attr;
 			return oldValue;
 			}
 
+	//OVERLOADING HERE (both methods are named public ScreenColor//
+		
 		  /** Return decoded ScreenColor object */
 		  public ScreenColor getColor() {
 			    return myColor;

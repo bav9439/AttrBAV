@@ -1,5 +1,6 @@
 package edu.saintjoe.cs.brianc.attr;
 
+//Placing values in for the 2 new colors in ColorAttrDriver Final Exam CMP 112 Bruce Anderson 
 public class ScreenColor {
 	
 	// A ScreenColor object has two fields (data members)
@@ -25,6 +26,10 @@ public class ScreenColor {
 		  		return 0x00cc00;
 		  else if (foo.equals("yellow"))
 			  	return 0x999900;
+		  else if (foo.equals("chartreuse"))
+			  	return 0F4FA58; 
+		  else if (foo.equals("crimson"))
+			  	return 0ff0000;
 		  
 		  // We have to return something; this isn't really the right way to do it!
 		  return -1;
